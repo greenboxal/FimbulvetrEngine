@@ -39,9 +39,8 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="Tao.DevIl, Version=1.6.8.3, Culture=neutral, PublicKeyToken=7ec4053013524957, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Dependencies\Vetr\Tao.DevIl.dll</HintPath>
+    <Reference Include="Tao.DevIl">
+      <HintPath>..\..\Dependencies\Tao.DevIl.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -52,7 +51,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\FimbulvetrEngine\FimbulvetrEngine.csproj">
       <Project>{7ff70cd4-9b36-41c8-881a-4d94fbe9bbc8}</Project>
-      <Name>FimbulvetrEngine %28FimbulvetrEngine\FimbulvetrEngine%29</Name>
+      <Name>FimbulvetrEngine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

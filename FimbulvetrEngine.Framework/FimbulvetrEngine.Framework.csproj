@@ -34,7 +34,7 @@
   <ItemGroup>
     <Reference Include="OpenTK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Dependencies\Vetr\OpenTK.dll</HintPath>
+      <HintPath>..\Dependencies\OpenTK.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,7 +52,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FimbulvetrEngine\FimbulvetrEngine.csproj">
       <Project>{7ff70cd4-9b36-41c8-881a-4d94fbe9bbc8}</Project>
-      <Name>FimbulvetrEngine %28FimbulvetrEngine\FimbulvetrEngine%29</Name>
+      <Name>FimbulvetrEngine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
