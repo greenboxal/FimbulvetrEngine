@@ -13,7 +13,7 @@ using FimbulvetrEngine.Plugin;
 using OpenTK;
 using OpenTK.Graphics;
 
-namespace FimbulvetrEngine.Framework
+namespace FimbulvetrEngine
 {
     public class Game : GameWindow
     {

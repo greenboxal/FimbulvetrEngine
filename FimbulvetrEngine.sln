@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FimbulvetrEngine", "FimbulvetrEngine\FimbulvetrEngine.csproj", "{7FF70CD4-9B36-41C8-881A-4D94FBE9BBC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FimbulvetrEngine.Framework", "FimbulvetrEngine.Framework\FimbulvetrEngine.Framework.csproj", "{C8304924-8F55-48F1-A5F3-B434C3B4C556}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FimbulvetrEngine.Plugins.DevIL", "Plugins\FimbulvetrEngine.Plugins.DevIL\FimbulvetrEngine.Plugins.DevIL.csproj", "{BC44DE67-32BC-4369-B1F2-E6C334610795}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{46B2EC3E-04EC-4FAE-AE69-953F10A528CF}"
